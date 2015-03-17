@@ -1,7 +1,7 @@
 import tweepy
 
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret) #Add your consumer_key and consumer_secret here
+auth.set_access_token(access_token, access_token_secret) #Add your access_token and token_secret here
 
 print "Please Enter Twitter username to retrieve first 5 tweets : "
 name = raw_input()
