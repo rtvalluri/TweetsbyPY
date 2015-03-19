@@ -8,7 +8,7 @@ name = raw_input()
 
 api = tweepy.API(auth)
 
-user_tweets = api.user_timeline(name)
+user_tweets = api.user_timeline(name) # "api.home_timeline()" for public timeline
 
 for i in range(5) : 
  	print user_tweets[i].text
